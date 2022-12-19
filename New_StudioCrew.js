@@ -23,8 +23,8 @@ function addNewFromSubgrid(gridEntityName, parentEntityName, parentEntityId, pri
             useQuickCreateForm: false,
             relationship: entityRelationship
         };
-        parameters["mtt_entrytype"] = entryType;
-        parameters["mtt_whichedit"] = editType;
+        parameters["test_entrytype"] = entryType;
+        parameters["test_whichedit"] = editType;
 
     Xrm.Navigation.openForm(openOptions, parameters)
 };
