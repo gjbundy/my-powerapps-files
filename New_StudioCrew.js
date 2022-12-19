@@ -20,7 +20,7 @@ function addNewFromSubgrid(gridEntityName, parentEntityName, parentEntityId, pri
         openOptions = {
             entityName: gridEntityName,
             createFromEntity: fromEntity,
-            useQuickCreateForm: false,
+            useQuickCreateForm: false, //set this to true if you want to use a quick create form (where available)
             relationship: entityRelationship
         };
         parameters["test_entrytype"] = entryType;
